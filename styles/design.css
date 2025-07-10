@@ -44,6 +44,7 @@ body{
 
 .header {
     background-image: url(../Assets/Hero-bg.png);
+    height: 700px;
 }
 
 /* nav styles */
@@ -60,9 +61,7 @@ nav {
     font-size: 35px;
 }
 
-
 /* Banner styles */
-
 
 .banner-content {
     font-size: 65px;
@@ -77,12 +76,12 @@ nav {
 
 .banner-subtitle {
     margin-top: 0;
-    margin-bottom: 37px;
+    margin-bottom: 20px;
 }
 
 .banner-button {
-    margin: 0px 43% 150px;
-
+    text-align: center;
+    margin-top: 0px;
 }
 
 /* main styles */
@@ -170,10 +169,11 @@ main{
     align-items: center;
     justify-content: center;
     gap: 115px;
+    margin-bottom: 85px;
 }
 
 .form-title{
-    font-size: 90px;
+    font-size: 60px;
     font-weight: 700;
 }
 
@@ -185,11 +185,16 @@ main{
 
 .form-inputs input[type="text"], .form-inputs input[type="email"], .form-inputs textarea{
     font-size: 20px;
-    font-weight: 500;
-    color: #00000050;
+    font-weight: 400;
+    color: #000000;
     padding: 20px 20px;
+    width: 450px;
     margin-top: 5px;
     margin-bottom: 19px;
     border: none ;
     border-radius: 10px;
+}
+
+.submit-button{
+    padding: 19px 200px;
 }
