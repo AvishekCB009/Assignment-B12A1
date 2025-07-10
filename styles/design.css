@@ -30,7 +30,7 @@
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
-    padding: 12px 36px;
+    padding: 15px 36px;
     border: none;
     border-radius: 10px;
     
@@ -38,6 +38,9 @@
 
 /* header styles */
 
+.header{
+    background-image: url(../Assets/Hero-bg.png);
+}
 /* nav styles */
 
 nav{
@@ -50,4 +53,28 @@ nav{
 .nav-title {
     font-weight: 900;
     font-size: 35px;
+}
+
+/* Action styles */
+
+
+.action-content{
+    font-size: 65px;
+    margin: 0px auto auto 20px;
+    text-align: center;
+}
+
+.action-title{
+    margin-top: 158px;
+    margin-bottom: 0;
+}
+
+.action-subtitle{
+    margin-top: 0;
+    margin-bottom: 37px;
+}
+
+.action-button{ 
+    margin: 0px 42% 150px;
+    
 }
