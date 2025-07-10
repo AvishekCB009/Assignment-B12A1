@@ -198,3 +198,37 @@ main{
 .submit-button{
     padding: 19px 200px;
 }
+
+/* footer styles */
+
+footer{
+    background-color: #FFFFFF;
+    padding: 100px 650px;
+}
+
+.footer-title{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.footer-subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    color: #8987A1;
+    text-align: center;
+    /* margin: 0px 650px; */
+
+}
+.footer-pages{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #8987A1;
+    margin-top: 25px;
+}
