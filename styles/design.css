@@ -36,6 +36,10 @@
 
 }
 
+/* body styles */
+body{
+    background-color: #F5F8FF;
+}
 /* header styles */
 
 .header {
@@ -57,7 +61,7 @@ nav {
 }
 
 
-/* Action styles */
+/* Banner styles */
 
 
 .banner-content {
@@ -81,10 +85,18 @@ nav {
 
 }
 
+/* main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* section Styles */
 
 .section{
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .section-title{
@@ -94,13 +106,7 @@ nav {
     margin: 0px;
 }
 
-/* action section style */
-
-main{
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
+/* Live Preview section style */
 
 .live-preview{
     display: flex;
@@ -119,4 +125,71 @@ main{
 .preview-image img{
     border: none;
     border-radius: 48px;
+}
+
+/* User metrics styles */
+
+.users-metrics{
+    background-color: #4E47FF10;
+    padding: 50px 142px;
+    border: none;
+    border-radius: 25px;
+}
+
+.users-metrics .section-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.users-metrics-cards{
+    display: flex;
+    gap: 160px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.metrics-title{
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+    margin: 0 auto;
+}
+
+.metrics-subtitle{
+    font-size: 20px;
+    font-weight: 500;
+    color: #00000050;
+    margin: 0 auto;
+}
+
+/* Form styles */
+
+.forms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 115px;
+}
+
+.form-title{
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.form-inputs label{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.form-inputs input[type="text"], .form-inputs input[type="email"], .form-inputs textarea{
+    font-size: 20px;
+    font-weight: 500;
+    color: #00000050;
+    padding: 20px 20px;
+    margin-top: 5px;
+    margin-bottom: 19px;
+    border: none ;
+    border-radius: 10px;
 }
