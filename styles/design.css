@@ -1,31 +1,31 @@
 /* shared styles */
 
 .open-sans-font {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
-.raleway-font{
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.raleway-font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-.color-type1{
+.color-type1 {
     color: #4E47FF;
 }
 
-.btn-type1{
+.btn-type1 {
     background-color: #4E47FF;
     color: #FFFFFF;
     font-size: 16px;
@@ -33,17 +33,18 @@
     padding: 15px 36px;
     border: none;
     border-radius: 10px;
-    
+
 }
 
 /* header styles */
 
-.header{
+.header {
     background-image: url(../Assets/Hero-bg.png);
 }
+
 /* nav styles */
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -55,26 +56,67 @@ nav{
     font-size: 35px;
 }
 
+
 /* Action styles */
 
 
-.action-content{
+.banner-content {
     font-size: 65px;
     margin: 0px auto auto 20px;
     text-align: center;
 }
 
-.action-title{
+.banner-title {
     margin-top: 158px;
     margin-bottom: 0;
 }
 
-.action-subtitle{
+.banner-subtitle {
     margin-top: 0;
     margin-bottom: 37px;
 }
 
-.action-button{ 
-    margin: 0px 42% 150px;
+.banner-button {
+    margin: 0px 43% 150px;
+
+}
+
+/* section Styles */
+
+.section{
+    margin-top: 100px;
+}
+
+.section-title{
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+    margin: 0px;
+}
+
+/* action section style */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.live-preview{
+    display: flex;
+    gap: 220px;
+    align-items: center;
     
+}
+
+.preview-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    color: #25243250;
+    margin-top: 10px;
+}
+
+.preview-image img{
+    border: none;
+    border-radius: 48px;
 }
