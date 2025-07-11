@@ -14,7 +14,6 @@
     font-style: normal;
 }
 
-
 .raleway-font {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -33,7 +32,12 @@
     padding: 15px 36px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
 
+.btn-type1:hover{
+    background-color: goldenrod;
+    color: #000000;
 }
 
 /* body styles */
@@ -126,6 +130,81 @@ main{
     border-radius: 48px;
 }
 
+/* User feedback Section */
+
+.feedback-section .section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.feedback-cards{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.user-feedback{
+    background-color: #FFFFFF;
+    padding: 24px;
+    border: none;
+    border-radius: 14px;
+}
+
+.customer{
+    display: flex;
+    align-items: center;
+    gap: 25px 12px ;
+    padding: 24px auto ;
+
+}
+
+.feedback-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1E1E1E;
+    margin-bottom: 0px;
+}
+
+.feedback-description{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1E1E1E;
+    margin-top: 8px;
+}
+
+.customer-texts h3{
+    margin: 0px 10px
+}
+
+.customer-image img{
+    border: none;
+    border-radius: 50%;
+}
+
+.customer-texts h3{
+    margin: 0px 10px
+}
+
+.customer-name{
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+    margin: 0px;
+
+}
+
+.date{
+    font-size: 16px;
+    font-weight: 400;
+    color: #B3B3B3;
+    margin: 0px;
+
+}
+
+
+
 /* User metrics styles */
 
 .users-metrics{
@@ -203,7 +282,8 @@ main{
 
 footer{
     background-color: #FFFFFF;
-    padding: 100px 650px;
+    padding: 100px;
+    height: inherit;
 }
 
 .footer-title{
@@ -219,7 +299,6 @@ footer{
     font-weight: 400;
     color: #8987A1;
     text-align: center;
-    /* margin: 0px 650px; */
 
 }
 .footer-pages{
