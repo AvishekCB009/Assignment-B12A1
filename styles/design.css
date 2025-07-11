@@ -308,6 +308,16 @@ footer{
     align-items: center;
     font-size: 18px;
     font-weight: 400;
-    color: #8987A1;
     margin-top: 25px;
 }
+
+.footer-pages a{
+    color: #8987A1;
+    text-decoration: none;
+}
+
+.footer-pages a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
